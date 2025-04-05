@@ -37,6 +37,7 @@ To get a local copy up and running, follow these simple steps.
 - [x] React-Redux для управления состояниями.
 - [x] React Hook Form для работы с формами.
 - [x] React Router v6 для реализации маршрутизации и вложенных роутов.
+- [x] Валидации данных через yup.
 - [x] Фетчинг данных с API SWAPI (https://swapi.dev/). 
 - [x] Персонажи: https://swapi.dev/api/people/
 - [x] Планеты: https://swapi.dev/api/planets/
