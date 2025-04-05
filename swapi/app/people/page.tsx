@@ -2,12 +2,12 @@
 
 import { useEffect, useState } from "react"
 import { useSearchParams } from "next/navigation"
-import { MainLayout } from "@/components/layout/main-layout"
-import { DataTable } from "@/components/data-table"
-import { fetchPeople } from "@/lib/api"
-import type { Person, ApiResponse } from "@/lib/types"
-import { extractIdFromUrl } from "@/lib/api"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { MainLayout } from "../../components/layout/main-layout"
+import { DataTable } from "../../components/data-table"
+import { fetchPeople } from "../../lib/api"
+import type { Person, ApiResponse } from "../../lib/types"
+import { extractIdFromUrl } from "../../lib/api"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../../components/ui/card"
 import { Loader2 } from "lucide-react"
 
 export default function PeoplePage() {

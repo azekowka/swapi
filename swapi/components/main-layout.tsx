@@ -3,7 +3,7 @@
 import type React from "react"
 import { useEffect } from "react"
 import { useRouter } from "next/navigation"
-import { useAuth } from "@/lib/auth-context"
+import { useAuth } from "../lib/auth-context"
 import { Navbar } from "./navbar"
 
 export function MainLayout({ children }: { children: React.ReactNode }) {
