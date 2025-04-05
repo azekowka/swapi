@@ -30,17 +30,6 @@ To get a local copy up and running, follow these simple steps.
    ```
 4. Access the Next.js application at `http://localhost:3000`
 
-## 📂 Repository Structure
-
-### Next.js Project
-
-- **app/**: Contains Axios instance, Doctor's and Client's Dashboards, layout page.
-- **components/**: Contains React components used in the project.
-- **pages/**: Contains Next.js pages. Each file in this directory is associated with a route based on its file name.
-- **styles/**: Contains CSS files for styling the application.
-- **public/**: Contains static files such as images, which can be accessed directly.
-- **utils/**: Contains utility functions and helpers used throughout the project.
-
 ## 📝 ToDo List
 
 - [x] Использовано React (версии 18 и выше), Next.js, TypeScript, и базовый ESLint.
